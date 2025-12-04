@@ -29,9 +29,14 @@
 
 ## Constitution Check
 
-*GATE: Must pass before Phase 0 research. Re-check after Phase 1 design.*
+*GATE: Must pass before proceeding.*
 
-[Gates determined based on constitution file]
+- [ ] **I. Spec-Driven:** Does this plan originate from an approved specification?
+- [ ] **II. Verifiable:** Is all proposed content verifiable (testable code, citable facts)?
+- [ ] **III. Modular:** Is the proposed work structured as a self-contained module?
+- [ ] **IV. Practical:** Is the focus on a practical, real-world application?
+- [ ] **V. Precise:** Is the language in the plan and spec clear and unambiguous?
+- [ ] **VI. Living Doc:** Does the plan account for future evolution and versioning?
 
 ## Project Structure
 

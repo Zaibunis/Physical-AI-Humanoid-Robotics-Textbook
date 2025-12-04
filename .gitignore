@@ -1,0 +1,24 @@
+# Universal
+.DS_Store
+Thumbs.db
+*.tmp
+*.swp
+.vscode/
+.idea/
+
+# Node.js / Docusaurus
+node_modules/
+dist/
+build/
+*.log
+.env*
+.docusaurus/
+.cache-loader/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+dist/
+*.egg-info/

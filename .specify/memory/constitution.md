@@ -1,55 +1,59 @@
-# [PROJECT_NAME] Constitution
-<!-- Example: Spec Constitution, TaskFlow Constitution, etc. -->
+# AI/Spec-Driven Book on Physical AI Constitution
+
+<!-- 
+Sync Impact Report:
+- Version change: 0.0.0 → 1.0.0
+- Added sections:
+  - Core Principles
+  - Content & Formatting Standards
+  - Contribution & Review Workflow
+  - Governance
+- Templates requiring updates:
+  - ✅ .specify/templates/plan-template.md
+  - ✅ .specify/templates/spec-template.md
+  - ✅ .specify/templates/tasks-template.md
+- Follow-up TODOs: None
+-->
 
 ## Core Principles
 
-### [PRINCIPLE_1_NAME]
-<!-- Example: I. Library-First -->
-[PRINCIPLE_1_DESCRIPTION]
-<!-- Example: Every feature starts as a standalone library; Libraries must be self-contained, independently testable, documented; Clear purpose required - no organizational-only libraries -->
+### I. Spec-Driven Development (SDD)
+All content, from chapters to code examples, MUST originate from a clear, reviewed, and approved specification document. This ensures every piece of content has a defined purpose and scope before creation.
 
-### [PRINCIPLE_2_NAME]
-<!-- Example: II. CLI Interface -->
-[PRINCIPLE_2_DESCRIPTION]
-<!-- Example: Every library exposes functionality via CLI; Text in/out protocol: stdin/args → stdout, errors → stderr; Support JSON + human-readable formats -->
+### II. Verifiable & Testable Content
+Every claim, technical assertion, and code snippet MUST be verifiable. Code examples must be accompanied by tests that prove their correctness. Factual statements must be supported by citable sources.
 
-### [PRINCIPLE_3_NAME]
-<!-- Example: III. Test-First (NON-NEGOTIABLE) -->
-[PRINCIPLE_3_DESCRIPTION]
-<!-- Example: TDD mandatory: Tests written → User approved → Tests fail → Then implement; Red-Green-Refactor cycle strictly enforced -->
+### III. Modular & Composable Chapters
+Chapters SHOULD be structured as self-contained modules. This allows them to be read in different orders and combined to create customized learning paths. Each chapter must define its prerequisites and learning objectives clearly.
 
-### [PRINCIPLE_4_NAME]
-<!-- Example: IV. Integration Testing -->
-[PRINCIPLE_4_DESCRIPTION]
-<!-- Example: Focus areas requiring integration tests: New library contract tests, Contract changes, Inter-service communication, Shared schemas -->
+### IV. Practicality & Real-World Focus
+The book MUST prioritize practical, real-world applications of Physical AI over purely theoretical discussions. Examples should be grounded in realistic scenarios and use industry-standard tools and practices where applicable.
 
-### [PRINCIPLE_5_NAME]
-<!-- Example: V. Observability, VI. Versioning & Breaking Changes, VII. Simplicity -->
-[PRINCIPLE_5_DESCRIPTION]
-<!-- Example: Text I/O ensures debuggability; Structured logging required; Or: MAJOR.MINOR.BUILD format; Or: Start simple, YAGNI principles -->
+### V. Clarity and Precision
+Language MUST be unambiguous, precise, and accessible to the target audience. Technical jargon should be defined clearly. Consistency in terminology across all chapters is mandatory.
 
-### [PRINCIPLE_6_NAME]
+### VI. Living Document
+The book is a living document. It is expected to evolve with the field of Physical AI. All content MUST be versioned, and a clear process for updates and amendments is defined in the Governance section.
 
+## Content & Formatting Standards
 
-[PRINCIPLE__DESCRIPTION]
+All content MUST adhere to the project's style guide (location to be defined). This includes standards for:
+- Diagrams and illustrations (e.g., format, tooling).
+- Code samples (e.g., language, style, linting).
+- Citations and references (e.g., citation style).
 
-## [SECTION_2_NAME]
-<!-- Example: Additional Constraints, Security Requirements, Performance Standards, etc. -->
+## Contribution & Review Workflow
 
-[SECTION_2_CONTENT]
-<!-- Example: Technology stack requirements, compliance standards, deployment policies, etc. -->
-
-## [SECTION_3_NAME]
-<!-- Example: Development Workflow, Review Process, Quality Gates, etc. -->
-
-[SECTION_3_CONTENT]
-<!-- Example: Code review requirements, testing gates, deployment approval process, etc. -->
+All changes to the book's content MUST be proposed via a pull request.
+- Each PR MUST be reviewed and approved by at least two other contributors.
+- The PR description MUST link to the relevant specification document.
+- Automated checks (e.g., linting, testing) MUST pass before a PR can be merged.
 
 ## Governance
-<!-- Example: Constitution supersedes all other practices; Amendments require documentation, approval, migration plan -->
 
-[GOVERNANCE_RULES]
-<!-- Example: All PRs/reviews must verify compliance; Complexity must be justified; Use [GUIDANCE_FILE] for runtime development guidance -->
+This Constitution is the supreme governing document for this project.
+- Amendments to this Constitution require a formal proposal, a discussion period of at least one week, and a unanimous vote from all active core contributors.
+- All contributions and reviews MUST adhere to the principles outlined herein.
+- The core contributor team is responsible for ensuring compliance.
 
-**Version**: [CONSTITUTION_VERSION] | **Ratified**: [RATIFICATION_DATE] | **Last Amended**: [LAST_AMENDED_DATE]
-<!-- Example: Version: 2.1.1 | Ratified: 2025-06-13 | Last Amended: 2025-07-16 -->
+**Version**: 1.0.0 | **Ratified**: 2025-12-04 | **Last Amended**: 2025-12-04
