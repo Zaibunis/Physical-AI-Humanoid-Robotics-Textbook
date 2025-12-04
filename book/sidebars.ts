@@ -3,6 +3,7 @@ import type {SidebarsConfig} from '@docusaurus/plugin-content-docs';
 const sidebars: SidebarsConfig = {
   tutorialSidebar: [
     'intro',
+    'deployment-guide',
     {
       type: 'category',
       label: 'Module 1: The Robotic Nervous System – ROS 2',
