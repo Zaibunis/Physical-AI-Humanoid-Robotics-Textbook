@@ -83,9 +83,9 @@
 
 **Purpose**: Final review, cleanup, and deployment.
 
-- [ ] T026 [P] Perform a full technical review of all chapters and code examples.
-- [ ] T027 [P] Proofread the entire book for grammar, spelling, and clarity.
-- [ ] T028 Perform a plagiarism check on the final manuscript.
+- [x] T026 [P] Perform a full technical review of all chapters and code examples.
+- [x] T027 [P] Proofread the entire book for grammar, spelling, and clarity.
+- [x] T028 Perform a plagiarism check on the final manuscript.
 - [ ] T029 Validate all Mermaid diagrams and code snippets render correctly in a local Docusaurus build.
 - [ ] T030 Deploy the final book to GitHub Pages using Docusaurus deployment commands.
 
