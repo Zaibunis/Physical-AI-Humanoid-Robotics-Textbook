@@ -50,30 +50,30 @@
 **Module 1: The Robotic Nervous System – ROS 2**
 - [x] T008 [P] [US1] Write Chapter 1.1: Introduction to ROS 2 Concepts in `book/docs/ros-2/concepts.md`
 - [x] T009 [P] [US1] Write Chapter 1.2: Creating a Humanoid Description (URDF) in `book/docs/ros-2/urdf.md`
-- [ ] T010 [P] [US1] Write Chapter 1.3: The Python Bridge: `rclpy` for AI Agents in `book/docs/ros-2/rclpy.md`
+- [x] T010 [P] [US1] Write Chapter 1.3: The Python Bridge: `rclpy` for AI Agents in `book/docs/ros-2/rclpy.md`
 
 **Module 2: The Digital Twin – Gazebo & Unity**
-- [ ] T011 [P] [US1] Write Chapter 2.1: Fundamentals of Physics Simulation in `book/docs/simulation/physics.md`
-- [ ] T012 [P] [US1] Write Chapter 2.2: Designing a Digital Environment in `book/docs/simulation/environment.md`
-- [ ] T013 [P] [US1] Write Chapter 2.3: Simulating Sensors (LiDAR, Camera, IMU) in `book/docs/simulation/sensors.md`
+- [x] T011 [P] [US1] Write Chapter 2.1: Fundamentals of Physics Simulation in `book/docs/simulation/physics.md`
+- [x] T012 [P] [US1] Write Chapter 2.2: Designing a Digital Environment in `book/docs/simulation/environment.md`
+- [x] T013 [P] [US1] Write Chapter 2.3: Simulating Sensors (LiDAR, Camera, IMU) in `book/docs/simulation/sensors.md`
 
 **Module 3: The AI-Robot Brain – NVIDIA Isaac**
-- [ ] T014 [P] [US1] Write Chapter 3.1: Photorealistic Training with Isaac Sim in `book/docs/nvidia-isaac/isaac-sim.md`
-- [ ] T015 [P] [US1] Write Chapter 3.2: Accelerated Perception with Isaac ROS in `book/docs/nvidia-isaac/isaac-ros.md`
-- [ ] T016 [P] [US1] Write Chapter 3.3: Navigation and Mapping (VSLAM, Nav2) in `book/docs/nvidia-isaac/navigation.md`
-- [ ] T017 [P] [US1] Write Chapter 3.4: Intro to Reinforcement Learning in `book/docs/nvidia-isaac/reinforcement-learning.md`
+- [x] T014 [P] [US1] Write Chapter 3.1: Photorealistic Training with Isaac Sim in `book/docs/nvidia-isaac/isaac-sim.md`
+- [x] T015 [P] [US1] Write Chapter 3.2: Accelerated Perception with Isaac ROS in `book/docs/nvidia-isaac/isaac-ros.md`
+- [x] T016 [P] [US1] Write Chapter 3.3: Navigation and Mapping (VSLAM, Nav2) in `book/docs/nvidia-isaac/navigation.md`
+- [x] T017 [P] [US1] Write Chapter 3.4: Intro to Reinforcement Learning in `book/docs/nvidia-isaac/reinforcement-learning.md`
 
 **Module 4: Vision-Language-Action (VLA)**
-- [ ] T018 [P] [US1] Write Chapter 4.1: Voice to Text with Whisper in `book/docs/vla/whisper.md`
-- [ ] T019 [P] [US1] Write Chapter 4.2: Planning and Reasoning with LLMs in `book/docs/vla/llm-planning.md`
-- [ ] T020 [P] [US1] Write Chapter 4.3: Object Recognition with Vision Models in `book/docs/vla/vision-models.md`
-- [ ] T021 [P] [US1] Write Chapter 4.4: Executing Actions in ROS 2 in `book/docs/vla/action-execution.md`
+- [x] T018 [P] [US1] Write Chapter 4.1: Voice to Text with Whisper in `book/docs/vla/whisper.md`
+- [x] T019 [P] [US1] Write Chapter 4.2: Planning and Reasoning with LLMs in `book/docs/vla/llm-planning.md`
+- [x] T020 [P] [US1] Write Chapter 4.3: Object Recognition with Vision Models in `book/docs/vla/vision-models.md`
+- [x] T021 [P] [US1] Write Chapter 4.4: Executing Actions in ROS 2 in `book/docs/vla/action-execution.md`
 
 **Module 5: Capstone – Autonomous Humanoid / Proxy Robot**
-- [ ] T022 [P] [US1] Write Chapter 5.1: Project Overview and Setup in `book/docs/capstone/overview.md`
-- [ ] T023 [P] [US1] Write Chapter 5.2: Integrating the Full Pipeline in `book/docs/capstone/integration.md`
-- [ ] T024 [P] [US1] Write Chapter 5.3: Sim-to-Real Transfer and Deployment in `book/docs/capstone/sim-to-real.md`
-- [ ] T025 [P] [US1] Write Chapter 5.4: Final Demonstration and Evaluation in `book/docs/capstone/demonstration.md`
+- [x] T022 [P] [US1] Write Chapter 5.1: Project Overview and Setup in `book/docs/capstone/overview.md`
+- [x] T023 [P] [US1] Write Chapter 5.2: Integrating the Full Pipeline in `book/docs/capstone/integration.md`
+- [x] T024 [P] [US1] Write Chapter 5.3: Sim-to-Real Transfer and Deployment in `book/docs/capstone/sim-to-real.md`
+- [x] T025 [P] [US1] Write Chapter 5.4: Final Demonstration and Evaluation in `book/docs/capstone/demonstration.md`
 
 **Checkpoint**: At this point, the first draft of the entire book should be complete.
 
