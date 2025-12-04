@@ -32,7 +32,7 @@ const config: Config = {
         docs: {
           sidebarPath: './sidebars.ts',
           // Please change this to your repo.
-          editUrl: 'https://github.com/your-org/book-writing/tree/main/book/',
+          editUrl: 'https://github.com/Zaibunis/Physical-AI-Humanoid-Robotics-Textbook',
         },
         blog: false, // Disable the blog plugin
         theme: {
@@ -59,7 +59,7 @@ const config: Config = {
           label: 'Book',
         },
         {
-          href: 'https://github.com/your-org/book-writing',
+          href: 'https://github.com/Zaibunis/Physical-AI-Humanoid-Robotics-Textbook',
           label: 'GitHub',
           position: 'right',
         },
@@ -82,7 +82,7 @@ const config: Config = {
           items: [
             {
               label: 'GitHub',
-              href: 'https://github.com/your-org/book-writing',
+              href: 'https://github.com/Zaibunis/Physical-AI-Humanoid-Robotics-Textbook',
             },
           ],
         },
