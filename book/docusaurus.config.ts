@@ -18,7 +18,14 @@ const config: Config = {
   projectName: 'Physical-AI-Humanoid-Robotics-Textbook', // Usually your repo name.
 
   onBrokenLinks: 'throw',
-  onBrokenMarkdownLinks: 'warn',
+
+  markdown: {
+    mermaid: true,
+    format: 'detect',
+    hooks: {
+      onBrokenMarkdownLinks: 'warn',
+    },
+  },
 
   i18n: {
     defaultLocale: 'en',
