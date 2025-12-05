@@ -11,32 +11,29 @@ type FeatureItem = {
 
 const FeatureList: FeatureItem[] = [
   {
-    title: 'Easy to Use',
+    title: 'Comprehensive Curriculum',
     Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        Master robotics fundamentals through 16 weeks of structured learning. From ROS 2 basics to deploying AI-powered humanoid robots.
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
+    title: 'Hands-On Projects',
     Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+       Build real-world skills with weekly assignments, labs, and simulations. Work with Gazebo, Isaac Sim, and industry-standard tools.
       </>
     ),
   },
   {
-    title: 'Powered by React',
+    title: 'Modern AI Integration',
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+       Learn cutting-edge Vision-Language-Action models, LLM task planning, and deploy robots with autonomous decision-making capabilities.
       </>
     ),
   },
