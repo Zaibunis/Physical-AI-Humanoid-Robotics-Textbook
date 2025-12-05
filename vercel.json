@@ -1,10 +1,10 @@
 {
   "builds": [
     {
-      "src": "book-writing/book/package.json",
+      "src": "book/package.json",
       "use": "@vercel/static-build",
       "config": {
-        "distDir": "book/build"
+        "distDir": "build"
       }
     }
   ],
