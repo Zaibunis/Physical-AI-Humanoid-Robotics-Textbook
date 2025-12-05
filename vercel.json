@@ -1,7 +1,14 @@
 {
+  "builds": [
+    {
+      "src": "book/package.json",
+      "use": "@vercel/static-build",
+      "config": {
+        "distDir": "book/build"
+      }
+    }
+  ],
   "rewrites": [
     { "source": "/(.*)", "destination": "/book-writing/$1" }
-  ],
-  "buildCommand": "npm run build",
-  "outputDirectory": "build"
+  ]
 }
