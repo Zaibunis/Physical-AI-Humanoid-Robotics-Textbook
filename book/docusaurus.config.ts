@@ -108,11 +108,6 @@ const config: Config = {
       ],
     },
   ],
-  logo: {
-    alt: 'Physical AI Logo',
-    src: '/img/logo.jpg',
-    href: '/',
-  },
   copyright: `Copyright © ${new Date().getFullYear()} Built with ❤️ by Faria Mustaqim. All rights reserved.`,
 }
 ,
