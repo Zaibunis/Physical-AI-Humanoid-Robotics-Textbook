@@ -87,7 +87,7 @@ const config: Config = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Built with ❤️ by Faria Mustaqim.`,
     },
     prism: {
       theme: prismThemes.github,

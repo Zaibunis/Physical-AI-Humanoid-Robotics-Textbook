@@ -39,7 +39,7 @@ function HomepageHeader() {
 
               <Link
                 className="button button--outline button--lg"
-                to="/docs">
+                to="/docs/intro">
                 View Chapters
               </Link>
             </div>
