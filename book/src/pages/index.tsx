@@ -48,7 +48,7 @@ function HomepageHeader() {
           {/* RIGHT IMAGE */}
           <div className="col col--6 text--center">
             <img
-              src="img/book-cover.jpg"
+              src="/img/book-cover.jpg"
               alt="Book Cover"
               className={styles.heroImage}
             />
@@ -129,7 +129,7 @@ export default function Home(): ReactNode {
 
               <div className="col col--6 text--center">
                 <img
-                  src="img/why.jpg"
+                  src="/img/why.jpg"
                   alt="Robot"
                   className={styles.sectionImage}
                 />
