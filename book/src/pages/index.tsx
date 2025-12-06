@@ -37,8 +37,35 @@ export default function Home(): ReactNode {
       description="Description will go into a meta tag in <head />">
       <HomepageHeader />
       <main>
-        <HomepageFeatures />
+        {/* You can add more sections here, e.g., features, testimonials */}
+        <section className={styles.features}>
+          <div className="container">
+            <div className="row">
+              <div className={clsx('col col--6')}>
+                <h2>Embodied Intelligence Guide</h2>
+                <p>
+                  Dive deep into Physical AI and Humanoid Robotics. This textbook provides a comprehensive guide
+                  to understanding, building, and deploying intelligent robotic systems.
+                </p>
+                <p>
+                  Explore topics like ROS 2, Digital Twins (Gazebo & Unity), NVIDIA Isaac for AI-Robot Brains,
+                  and cutting-edge Vision-Language-Action (VLA) systems.
+                </p>
+              </div>
+              <div className={clsx('col col--6')}>
+                <h2>Key Highlights</h2>
+                <ul>
+                  <li>Modular chapters with learning objectives and practical labs.</li>
+                  <li>Hands-on code examples and simulation tutorials.</li>
+                  <li>Ethical AI development and Human-Robot Interaction design principles.</li>
+                  <li>A final capstone project to integrate all learned concepts.</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </section>
       </main>
+
     </Layout>
   );
 }

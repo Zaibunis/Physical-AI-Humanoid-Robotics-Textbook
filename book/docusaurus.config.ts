@@ -8,10 +8,10 @@ const config: Config = {
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
-  url: 'https://Physical-AI-Humanoid-Robotics-Textbook.github.io',
+  url: 'https://Zaibunis.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/book-writing/',
+  baseUrl: '/Physical-AI-Humanoid-Robotics-Textbook/',
 
   // GitHub pages deployment config.
   organizationName: 'Zaibunis', // Usually your GitHub org/user name.
@@ -44,12 +44,12 @@ const config: Config = {
 
   themeConfig: {
     // Replace with your project's social card
-    image: 'img/docusaurus-social-card.jpg',
+    image: 'img/card.jpg',
     navbar: {
       title: 'Physical AI & Humanoid Robotics',
       logo: {
         alt: 'Book Logo',
-        src: 'img/logo.svg',
+        src: 'img/logo.jpg',
       },
       items: [
         {
