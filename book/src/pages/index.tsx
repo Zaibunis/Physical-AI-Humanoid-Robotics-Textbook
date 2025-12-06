@@ -39,7 +39,7 @@ function HomepageHeader() {
 
               <Link
                 className="button button--outline button--lg"
-                to="/docs/intro">
+                to="/docs">
                 View Chapters
               </Link>
             </div>
@@ -48,7 +48,7 @@ function HomepageHeader() {
           {/* RIGHT IMAGE */}
           <div className="col col--6 text--center">
             <img
-              src="/img/book-cover.png"
+              src="/img/book-cover.jpg"
               alt="Book Cover"
               className={styles.heroImage}
             />
@@ -129,7 +129,7 @@ export default function Home(): ReactNode {
 
               <div className="col col--6 text--center">
                 <img
-                  src="/img/robot.png"
+                  src="/img/why.jpg"
                   alt="Robot"
                   className={styles.sectionImage}
                 />
