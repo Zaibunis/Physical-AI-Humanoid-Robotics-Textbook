@@ -66,29 +66,56 @@ const config: Config = {
       ],
     },
     footer: {
-      style: 'dark',
-      links: [
+  style: 'dark',
+  links: [
+    {
+      title: 'Content',
+      items: [
         {
-          title: 'Content',
-          items: [
-            {
-              label: 'Book',
-              to: '/docs/intro',
-            },
-          ],
-        },
-        {
-          title: 'More',
-          items: [
-            {
-              label: 'GitHub',
-              href: 'https://github.com/Zaibunis/Physical-AI-Humanoid-Robotics-Textbook',
-            },
-          ],
+          label: 'Book',
+          to: '/docs/intro',
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} Built with ❤️ by Faria Mustaqim.`,
     },
+    {
+      title: 'Social Links',
+      items: [
+       {
+          label: 'LinkedIn',
+          href: 'https://www.linkedin.com/in/faria-mustaqeem-3367b5301/',
+        },
+        {
+          label: 'Twitter',
+          href: 'https://x.com/Faria1539114',
+        },
+         {
+          label: 'Facebook',
+          href: 'https://www.facebook.com/profile.php?id=61577614329277',
+        }
+      ],
+    },
+    {
+      title: 'More',
+      items: [
+        {
+          label: 'GitHub',
+          href: 'https://github.com/Zaibunis/Physical-AI-Humanoid-Robotics-Textbook',
+        },
+         {
+          label: 'Portfolio',
+          href: 'https://faria-mustaqim.vercel.app/',
+        },
+      ],
+    },
+  ],
+  logo: {
+    alt: 'Physical AI Logo',
+    src: '/img/logo.jpg',
+    href: '/',
+  },
+  copyright: `Copyright © ${new Date().getFullYear()} Built with ❤️ by Faria Mustaqim. All rights reserved.`,
+}
+,
     prism: {
       theme: prismThemes.github,
       darkTheme: prismThemes.dracula,
