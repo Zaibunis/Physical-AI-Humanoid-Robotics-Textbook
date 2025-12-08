@@ -1,4 +1,4 @@
-# Specification Quality Checklist: Urdu Translation for Textbook Chapters
+# Specification Quality Checklist: Simple Urdu Translation
 
 **Purpose**: Validate specification completeness and quality before proceeding to planning
 **Created**: 2025-12-08
@@ -31,4 +31,4 @@
 
 ## Notes
 
-- All checks passed. The specification is ready for the next phase.
+- All checks passed. This simplified spec is ready for planning.
