@@ -1,0 +1,42 @@
+openapi: 3.0.0
+info:
+  title: Simple Urdu Translation API
+  version: 1.0.0
+paths:
+  /translate/chapter:
+    post:
+      summary: Translates a chapter's content to Urdu
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                chapter_id:
+                  type: string
+                  example: "ch_01"
+                content:
+                  type: string
+                  example: "This is the content of the chapter."
+      responses:
+        '200':
+          description: Successful translation
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  translated_text:
+                    type: string
+                    example: "یہ باب کا مواد ہے۔"
+        '503':
+          description: Translation service is unavailable
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  detail:
+                    type: string
+                    example: "I'm unable to translate this content right now. Please try again later."
