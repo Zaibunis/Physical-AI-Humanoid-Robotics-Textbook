@@ -63,7 +63,7 @@ function HomepageHeader() {
 export default function Home(): ReactNode {
   return (
     <Layout
-      title="Embodied Intelligence Guide"
+      title="RoboVerse"
       description="A complete guide to Physical AI, Humanoid Robotics and Simulated Intelligence Systems">
 
       <HomepageHeader />

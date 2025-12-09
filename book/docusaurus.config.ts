@@ -4,14 +4,14 @@ import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
   title: 'Physical AI & Humanoid Robotics',
-  tagline: 'From Simulation to the Real World',
-  favicon: 'img/favicon.ico',
+  tagline: 'Your Guide to Physical AI and Humanoid Robotics',
+  favicon: 'img/logo.jpg',
 
   // Set the production url of your site here
-  url: 'https://Zaibunis.github.io',
+  url: 'https://Physical-AI-Humanoid-Robotics-Textbook.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/Physical-AI-Humanoid-Robotics-Textbook/',
+  baseUrl: '/book-writing/',
 
   // GitHub pages deployment config.
   organizationName: 'Zaibunis', // Usually your GitHub org/user name.
@@ -20,10 +20,20 @@ const config: Config = {
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
 
-  i18n: {
-    defaultLocale: 'en',
-    locales: ['en'],
+i18n: {
+  defaultLocale: 'en',
+  locales: ['en', 'ur'],
+  localeConfigs: {
+    en: {
+      label: 'English',
+      direction: 'ltr',
+    },
+    ur: {
+      label: 'اردو',    // This is what will appear in the dropdown
+      direction: 'rtl',
+    },
   },
+},
 
   presets: [
     [
@@ -37,6 +47,7 @@ const config: Config = {
         blog: false, // Disable the blog plugin
         theme: {
           customCss: './src/css/custom.css',
+    
         },
       } satisfies Preset.Options,
     ],
@@ -44,7 +55,7 @@ const config: Config = {
 
   themeConfig: {
     // Replace with your project's social card
-    image: 'img/card.jpg',
+    image: 'img/docusaurus-social-card.jpg',
     navbar: {
       title: 'Physical AI & Humanoid Robotics',
       logo: {
@@ -59,6 +70,20 @@ const config: Config = {
           label: 'Book',
         },
         {
+  type: 'dropdown',
+  label: 'Account',
+  position: 'right',
+  items: [
+    { label: 'Login', href: 'https://your-login.com' },
+    { label: 'Sign Up', href: 'https://your-login.com/signup' },
+    { label: 'Dashboard', href: 'https://zaibunis.github.io/Physical-AI-Humanoid-Robotics-Textbook/' },
+  ],
+},
+    {
+  type: 'localeDropdown',
+  position: 'right',
+},
+        {
           href: 'https://github.com/Zaibunis/Physical-AI-Humanoid-Robotics-Textbook',
           label: 'GitHub',
           position: 'right',
@@ -69,48 +94,32 @@ const config: Config = {
   style: 'dark',
   links: [
     {
-      title: 'Content',
+      title: 'Start Learning',
       items: [
-        {
-          label: 'Book',
-          to: '/docs/intro',
-        },
+        { label: 'Getting Started', to: '/docs/intro' },
+        { label: 'Full Table of Contents', to: '/docs/intro' },
+        { label: 'Recommended Learning Path', to: '/docs/capstone/overview' },
       ],
     },
     {
-      title: 'Social Links',
+      title: 'Connect',
       items: [
-       {
-          label: 'LinkedIn',
-          href: 'https://www.linkedin.com/in/faria-mustaqeem-3367b5301/',
-        },
-        {
-          label: 'Twitter',
-          href: 'https://x.com/Faria1539114',
-        },
-         {
-          label: 'Facebook',
-          href: 'https://www.facebook.com/profile.php?id=61577614329277',
-        }
+        { label: 'YouTube', href: 'https://www.youtube.com/@faria-Mustaqim' },
+        { label: 'LinkedIn', href: 'https://www.linkedin.com/in/faria-mustaqeem-3367b5301/' },
+        { label: 'GitHub', href: 'https://github.com/Zaibunis' },
       ],
     },
     {
-      title: 'More',
+      title: 'Resources',
       items: [
-        {
-          label: 'GitHub',
-          href: 'https://github.com/Zaibunis/Physical-AI-Humanoid-Robotics-Textbook',
-        },
-         {
-          label: 'Portfolio',
-          href: 'https://faria-mustaqim.vercel.app/',
-        },
+        { label: 'Complete GitHub Repo', href: 'https://github.com/Zaibunis/Physical-AI-Humanoid-Robotics-Textbook' },
+        { label: 'Simulation Examples', href: '/docs/simulation/sensors' },
+        { label: 'Demonstration', href: '/docs/capstone/demonstration' },
       ],
     },
   ],
-  copyright: `Copyright © ${new Date().getFullYear()} Built with ❤️ by Faria Mustaqim. All rights reserved.`,
-}
-,
+  copyright: `Copyright © ${new Date().getFullYear()} Physical AI & Humanoid Robotics • Made with ❤️ by Zaibunis`,
+},
     prism: {
       theme: prismThemes.github,
       darkTheme: prismThemes.dracula,

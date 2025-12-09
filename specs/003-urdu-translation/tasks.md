@@ -11,10 +11,10 @@ This document breaks down the implementation of the Simple Urdu Translation feat
 
 *These tasks initialize the necessary directories and files for the backend service.*
 
-- [ ] T001 Create backend directory at `./backend`
-- [ ] T002 Create a basic FastAPI application file at `./backend/main.py`
-- [ ] T003 Create a requirements file for backend dependencies at `./backend/requirements.txt`
-- [ ] T004 Add `fastapi`, `uvicorn`, and `google-generativeai` to `./backend/requirements.txt`
+- [x] T001 Create backend directory at `./backend`
+- [x] T002 Create a basic FastAPI application file at `./backend/main.py`
+- [x] T003 Create a requirements file for backend dependencies at `./backend/requirements.txt`
+- [x] T004 Add `fastapi`, `uvicorn`, and `google-generativeai` to `./backend/requirements.txt`
 
 ---
 
@@ -30,13 +30,13 @@ This document breaks down the implementation of the Simple Urdu Translation feat
 
 ### Implementation Tasks
 
-- [ ] T005 [US1] Create a service module in `./backend/services/translation_service.py` to handle Gemini API integration.
-- [ ] T006 [US1] Implement the `POST /translate/chapter` endpoint in `./backend/main.py` which uses the translation service.
-- [ ] T007 [US1] Implement handling of the `GEMINI_API_KEY` from environment variables in `./backend/main.py`.
-- [ ] T008 [P] [US1] Create a new React component for the "Translate to Urdu" button at `./book/src/components/TranslateButton/index.tsx`.
-- [ ] T009 [P] [US1] Create a new React component for the toggle view at `./book/src/components/ToggleView/index.tsx`.
-- [ ] T010 [US1] Import and add the `TranslateButton` component to a sample chapter page, such as `./book/docs/intro.md`.
-- [ ] T011 [US1] Implement the client-side logic in `./book/src/components/TranslateButton/index.tsx` to call the backend API, handle loading/error states, and display the `ToggleView` component with the translated text upon success.
+- [x] T005 [US1] Create a service module in `./backend/services/translation_service.py` to handle Gemini API integration.
+- [x] T006 [US1] Implement the `POST /translate/chapter` endpoint in `./backend/main.py` which uses the translation service.
+- [x] T007 [US1] Implement handling of the `GEMINI_API_KEY` from environment variables in `./backend/main.py`.
+- [x] T008 [P] [US1] Create a new React component for the "Translate to Urdu" button at `./book/src/components/TranslateButton/index.tsx`.
+- [x] T009 [P] [US1] Create a new React component for the toggle view at `./book/src/components/ToggleView/index.tsx`.
+- [x] T010 [US1] Import and add the `TranslateButton` component to a sample chapter page, such as `./book/docs/intro.md`.
+- [x] T011 [US1] Implement the client-side logic in `./book/src/components/TranslateButton/index.tsx` to call the backend API, handle loading/error states, and display the `ToggleView` component with the translated text upon success.
 
 ---
 
@@ -44,8 +44,8 @@ This document breaks down the implementation of the Simple Urdu Translation feat
 
 *Finalizing tasks for documentation and testing.*
 
-- [ ] T012 Update the root `README.md` with setup and execution instructions from `specs/003-urdu-translation/quickstart.md`.
-- [ ] T013 Perform and validate end-to-end testing by following all steps in `specs/003-urdu-translation/quickstart.md`.
+- [x] T012 Update the root `README.md` with setup and execution instructions from `specs/003-urdu-translation/quickstart.md`.
+- [x] T013 Perform and validate end-to-end testing by following all steps in `specs/003-urdu-translation/quickstart.md`.
 
 ---
 

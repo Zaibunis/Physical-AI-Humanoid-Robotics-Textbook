@@ -1,9 +1,13 @@
 {
   "devDependencies": {
+    "@types/react": "^19.2.7",
+    "@types/react-dom": "^19.2.3",
     "gh-pages": "^6.3.0"
   },
   "dependencies": {
     "openai-agents": "^1.1.0",
-    "python-dotenv": "^0.0.1-security"
+    "python-dotenv": "^0.0.1-security",
+    "react": "^19.2.1",
+    "react-dom": "^19.2.1"
   }
 }
