@@ -76,7 +76,7 @@ i18n: {
   items: [
     { label: 'Login', href: 'https://your-login.com' },
     { label: 'Sign Up', href: 'https://your-login.com/signup' },
-    { label: 'Dashboard', href: 'https://app.yoursite.com' },
+    { label: 'Dashboard', href: 'https://zaibunis.github.io/Physical-AI-Humanoid-Robotics-Textbook/' },
   ],
 },
         {
@@ -93,15 +93,15 @@ i18n: {
       title: 'Start Learning',
       items: [
         { label: 'Getting Started', to: '/docs/intro' },
-        { label: 'Full Table of Contents', to: '/docs' },
-        { label: 'Recommended Learning Path', to: '/docs/category/roadmap' },
+        { label: 'Full Table of Contents', to: '/docs/intro' },
+        { label: 'Recommended Learning Path', to: '/docs/intro' },
       ],
     },
     {
       title: 'Connect',
       items: [
-        { label: 'YouTube', href: 'https://www.youtube.com/@Huzaifasys' },
-        { label: 'LinkedIn', href: 'https://www.linkedin.com/in/huzaifasys/' },
+        { label: 'YouTube', href: 'https://www.youtube.com/@faria-Mustaqim' },
+        { label: 'LinkedIn', href: 'https://www.linkedin.com/in/faria-mustaqeem-3367b5301/' },
         { label: 'GitHub', href: 'https://github.com/Zaibunis' },
       ],
     },
@@ -109,19 +109,12 @@ i18n: {
       title: 'Resources',
       items: [
         { label: 'Complete GitHub Repo', href: 'https://github.com/Zaibunis/Physical-AI-Humanoid-Robotics-Textbook' },
-        { label: 'Simulation Examples', href: 'https://github.com/Zaibunis/Physical-AI-Humanoid-Robotics-Textbook/tree/main/examples' },
-        { label: 'Download PDF', href: '/pdf/latest-book.pdf' },
-      ],
-    },
-    {
-      title: 'Support',
-      items: [
-        { label: 'Buy Me a Coffee', href: 'https://buymeacoffee.com/zaibunis' },
-        { label: 'GitHub Sponsors', href: 'https://github.com/sponsors/Zaibunis' },
+        { label: 'Simulation Examples', href: '/docs/simulation/sensors' },
+        { label: 'Demonstrations', href: '/docs/capstone/demonstration' },
       ],
     },
   ],
-  copyright: `Copyright © ${new Date().getFullYear()} Physical AI & Humanoid Robotics • Made with ❤️ by Zaibunis`,
+  copyright: `Copyright © ${new Date().getFullYear()} Physical AI & Humanoid Robotics • Made with ❤️ by Faria Mustaqim`,
 },
     prism: {
       theme: prismThemes.github,
