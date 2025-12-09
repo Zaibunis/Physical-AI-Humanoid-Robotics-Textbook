@@ -20,10 +20,16 @@ const config: Config = {
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
 
-  i18n: {
-    defaultLocale: 'en',
-    locales: ['en'],
+i18n: {
+  defaultLocale: 'en',
+  locales: ['ur'],
+  localeConfigs: {
+    ur: {
+      label: 'اردو',    // This is what will appear in the dropdown
+      direction: 'rtl',
+    },
   },
+},
 
   presets: [
     [
@@ -37,6 +43,7 @@ const config: Config = {
         blog: false, // Disable the blog plugin
         theme: {
           customCss: './src/css/custom.css',
+    
         },
       } satisfies Preset.Options,
     ],
@@ -49,7 +56,7 @@ const config: Config = {
       title: 'Physical AI & Humanoid Robotics',
       logo: {
         alt: 'Book Logo',
-        src: 'img/logo.svg',
+        src: '/img/book-cover.jpg',
       },
       items: [
         {
@@ -58,6 +65,20 @@ const config: Config = {
           position: 'left',
           label: 'Book',
         },
+    {
+  type: 'localeDropdown',
+  position: 'right',
+},
+{
+  type: 'dropdown',
+  label: 'Account',
+  position: 'right',
+  items: [
+    { label: 'Login', href: 'https://your-login.com' },
+    { label: 'Sign Up', href: 'https://your-login.com/signup' },
+    { label: 'Dashboard', href: 'https://app.yoursite.com' },
+  ],
+},
         {
           href: 'https://github.com/Zaibunis/Physical-AI-Humanoid-Robotics-Textbook',
           label: 'GitHub',
@@ -66,29 +87,42 @@ const config: Config = {
       ],
     },
     footer: {
-      style: 'dark',
-      links: [
-        {
-          title: 'Content',
-          items: [
-            {
-              label: 'Book',
-              to: '/docs/intro',
-            },
-          ],
-        },
-        {
-          title: 'More',
-          items: [
-            {
-              label: 'GitHub',
-              href: 'https://github.com/Zaibunis/Physical-AI-Humanoid-Robotics-Textbook',
-            },
-          ],
-        },
+  style: 'dark',
+  links: [
+    {
+      title: 'Start Learning',
+      items: [
+        { label: 'Getting Started', to: '/docs/intro' },
+        { label: 'Full Table of Contents', to: '/docs' },
+        { label: 'Recommended Learning Path', to: '/docs/category/roadmap' },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} Built with Docusaurus.`,
     },
+    {
+      title: 'Connect',
+      items: [
+        { label: 'YouTube', href: 'https://www.youtube.com/@Huzaifasys' },
+        { label: 'LinkedIn', href: 'https://www.linkedin.com/in/huzaifasys/' },
+        { label: 'GitHub', href: 'https://github.com/Zaibunis' },
+      ],
+    },
+    {
+      title: 'Resources',
+      items: [
+        { label: 'Complete GitHub Repo', href: 'https://github.com/Zaibunis/Physical-AI-Humanoid-Robotics-Textbook' },
+        { label: 'Simulation Examples', href: 'https://github.com/Zaibunis/Physical-AI-Humanoid-Robotics-Textbook/tree/main/examples' },
+        { label: 'Download PDF', href: '/pdf/latest-book.pdf' },
+      ],
+    },
+    {
+      title: 'Support',
+      items: [
+        { label: 'Buy Me a Coffee', href: 'https://buymeacoffee.com/zaibunis' },
+        { label: 'GitHub Sponsors', href: 'https://github.com/sponsors/Zaibunis' },
+      ],
+    },
+  ],
+  copyright: `Copyright © ${new Date().getFullYear()} Physical AI & Humanoid Robotics • Made with ❤️ by Zaibunis`,
+},
     prism: {
       theme: prismThemes.github,
       darkTheme: prismThemes.dracula,
