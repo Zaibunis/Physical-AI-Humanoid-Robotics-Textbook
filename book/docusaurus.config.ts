@@ -22,13 +22,7 @@ const config: Config = {
 
 i18n: {
   defaultLocale: 'en',
-  locales: ['ur'],
-  localeConfigs: {
-    ur: {
-      label: 'اردو',    // This is what will appear in the dropdown
-      direction: 'rtl',
-    },
-  },
+  locales: ['en'],
 },
 
   presets: [
