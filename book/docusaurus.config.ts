@@ -4,8 +4,8 @@ import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
   title: 'Physical AI & Humanoid Robotics',
-  tagline: 'From Simulation to the Real World',
-  favicon: 'img/favicon.ico',
+  tagline: 'Your Guide to Embodied AI & Next-Gen Robotics.',
+  favicon: 'img/image.jpg',
 
   // Set the production url of your site here
   url: 'https://Physical-AI-Humanoid-Robotics-Textbook.github.io',
@@ -22,7 +22,8 @@ const config: Config = {
 
   i18n: {
     defaultLocale: 'en',
-    locales: ['en'],
+      locales: ['en', 'ur'],
+  path: 'i18n',
   },
 
   presets: [
@@ -58,6 +59,10 @@ const config: Config = {
           position: 'left',
           label: 'Book',
         },
+         {
+          type: 'localeDropdown',
+          position: 'right',
+        },
         {
           href: 'https://github.com/Zaibunis/Physical-AI-Humanoid-Robotics-Textbook',
           label: 'GitHub',
@@ -65,7 +70,7 @@ const config: Config = {
         },
       ],
     },
-    footer: {
+   footer: {
   style: 'dark',
   links: [
     {
@@ -73,14 +78,29 @@ const config: Config = {
       items: [
         { label: 'Getting Started', to: '/docs/intro' },
         { label: 'Full Table of Contents', to: '/docs/intro' },
-  
+        { label: 'Recommended Learning Path', to: '/docs/intro' },
       ],
     },
-
+    {
+      title: 'Connect',
+      items: [
+        { label: 'YouTube', href: 'https://www.youtube.com/@faria-Mustaqim' },
+        { label: 'LinkedIn', href: 'https://www.linkedin.com/in/faria-mustaqeem-3367b5301/' },
+        { label: 'GitHub', href: 'https://github.com/Zaibunis' },
+      ],
+    },
+    {
+      title: 'Resources',
+      items: [
+        { label: 'Complete GitHub Repo', href: 'https://github.com/Zaibunis/Physical-AI-Humanoid-Robotics-Textbook' },
+        { label: 'Simulation Examples', href: '/docs/intro' },
+        { label: 'Demonstrations', href: '/docs/intro' },
+      ],
+    },
   ],
   copyright: `Copyright © ${new Date().getFullYear()} Physical AI & Humanoid Robotics • Made with ❤️ by Zaibunis`,
 },
-    prism: {
+     prism: {
       theme: prismThemes.github,
       darkTheme: prismThemes.dracula,
     },
