@@ -11,7 +11,7 @@ const config: Config = {
   url: 'https://zaibunis.github.io/',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/book-writing/',
+  baseUrl: '/Physical-AI-Humanoid-Robotics-Textbook/',
 
   // GitHub pages deployment config.
   organizationName: 'Zaibunis', // Usually your GitHub org/user name.
