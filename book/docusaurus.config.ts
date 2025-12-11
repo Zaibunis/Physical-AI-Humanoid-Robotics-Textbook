@@ -8,7 +8,7 @@ const config: Config = {
   favicon: 'img/image.jpg',
 
   // Set the production url of your site here
-  url: 'https://Physical-AI-Humanoid-Robotics-Textbook.github.io',
+  url: 'https://zaibunis.github.io/',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/book-writing/',
