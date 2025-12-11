@@ -1,6 +1,7 @@
 import requests
 import xml.etree.ElementTree as ET
 import trafilatura
+import re
 from dotenv import load_dotenv
 import os
 from qdrant_client import QdrantClient
@@ -69,16 +70,32 @@ def extract_text_from_url(url):
 # -------------------------------------
 # Step 3 — Chunk the text
 # -------------------------------------
-def chunk_text(text, max_chars=1200):
+import re
+
+def chunk_text(text, max_chars=1500):
+    """Fast + safe text chunking by sentence groups."""
+    
+    # Split into sentences safely
+    sentences = re.split(r'(?<=[.!?])\s+', text)
+    
     chunks = []
-    while len(text) > max_chars:
-        split_pos = text[:max_chars].rfind(". ")
-        if split_pos == -1:
-            split_pos = max_chars
-        chunks.append(text[:split_pos])
-        text = text[split_pos:]
-    chunks.append(text)
+    current = []
+
+    current_len = 0
+    for s in sentences:
+        if current_len + len(s) > max_chars:
+            chunks.append(" ".join(current))
+            current = [s]
+            current_len = len(s)
+        else:
+            current.append(s)
+            current_len += len(s)
+
+    if current:
+        chunks.append(" ".join(current))
+
     return chunks
+
 
 
 # -------------------------------------
